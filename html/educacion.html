@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="author" content="Jeancarlos Solano">
+    <meta name="description" content="Proyecto de evalucion final">
+    <meta name="keywords" content="proyecto, html, css, next U, curso">
+    <title>Hoja de Educacion</title>
+  </head>
+  <body>
+    <svg width="200px" height="250px" viewbox="0 0 250 250">
+        <image width="200px" height="250px" xlink:href="../img/icon01.svg"></image>
+        <h1>Curriculum Vitae</h1>
+        <h2>Nombre</h2>
+        <h3>Jeancarlos</h3>
+        <h2>Apellido</h2>
+        <h3>Solano</h3>
+        <h2>Fecha de Nacimiento</h2>
+        <h3>28 de Septiembre de 1993</h3>
+        <h2>Lugar de Nacimiento</h2>
+        <h3>Granada, Nicaragua</h3>
+
+        <nav>
+          <a href="../index.html"><strong>Inicio</strong></a>  |
+          <a href="educacion.html"><strong>Educacion</strong></a>  |
+          <a href="experiencia.html"><strong>Experiencia</strong></a>
+        </nav>
+
+        <h2>Educacion</h2>
+
+        <table border="2", cellpadding="10", cellspacing="0">
+          <thead>
+            <th>Año</th>
+            <th>Institucion</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2000 - 2004</td>
+              <td>Colegio Autonomo Bellos Horizonte</td>
+              <td>Managua, Nicaragua</td>
+              <td>Si</td>
+            </tr>
+
+            <tr>
+              <td>2005</td>
+              <td>Colegio Critiano Verbo</td>
+              <td>Veracruz, Nindiri, Nicaragua</td>
+              <td>Si</td>
+            </tr>
+
+            <tr>
+              <td>2006 - 2008</td>
+              <td>Colegio Critiano Verbo</td>
+              <td>Veracruz, Nindiri, Nicaragua</td>
+              <td>Si</td>
+            </tr>
+
+            <tr>
+              <td>2009 - 2010</td>
+              <td>Colegio Bautista de Managua</td>
+              <td>Managua, Nicaragua</td>
+              <td>Si</td>
+            </tr>
+
+            <tr>
+              <td>2011 - 2016</td>
+              <td>Universidad Nacional de Ingeniería</td>
+              <td>Managua, Nicaragua</td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br><form autocomplete="on" name="Formulario de Estudios">
+          <fieldset>
+            <legend><strong>Agregar Titulos</strong></legend>
+            <br><label for="anio">Año: </label>
+              <input type="number" name="anio" id="anio_est" min="1999" max="2030"><br>
+            <br><label for="instituto">Instituto: </label>
+              <input type="text" name="insti" id="insti_est" placeholder="Ej: Colegio Managua" required><br>
+            <br><label for="lugar">Lugar: </label>
+              <input type="text" name="lugarEs" id="lug_est" placeholder="Ej: Masaya " ><br>
+            <br><input type="submit" name="envioForm" value="submit"><br>
+          </fieldset>
+        </form>
+  </body>
+  <footer>
+
+    <br><p>Correo Electronico: solno_jeancarlos@yahoo.com</p>
+    <p>Telefono: +505 8466-3150</p>
+    <p>Instagram: jankrnik</p>
+
+  </footer>
+</html>
